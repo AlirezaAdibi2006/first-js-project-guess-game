@@ -28,6 +28,7 @@ The layout is built using **CSS Grid** and **Flexbox**.
 The main purpose of this project is to practice JavaScript fundamentals while structuring the page with CSS.
 
 ---
-<img width="234" height="612" alt="image" src="https://github.com/user-attachments/assets/883a0ec2-4483-4350-b908-4d9f8e6a2664" />
+<img width="234" height="589" alt="image" src="https://github.com/user-attachments/assets/688d8c8f-5692-4f26-aa0f-47a0fc209a63" />
+
 <img width="1366" height="896" alt="image" src="https://github.com/user-attachments/assets/3d4bf18a-c629-443b-9d51-9fc007e52aa2" />
 
