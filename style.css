@@ -225,7 +225,7 @@ footer p{
   padding: 20px;
 }
 
-/* انتخاب متن */
+
 ::selection {
   background: #9700c5;
   color: #0a0a0a;
@@ -253,4 +253,84 @@ a:hover {
 }
 a:hover::after {
   width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%; 
+  }
+
+  body {
+    grid-template-areas:
+      "header"
+      "main"
+      "aside"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto auto;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  main {
+    grid-template-columns: 1fr; 
+    gap: 2rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .guess {
+    width: 100%; 
+    font-size: 2rem;
+  }
+
+  .btn {
+    width: 100%; 
+    font-size: 1.6rem;
+    padding: 1.2rem 2rem;
+  }
+
+  .number {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  aside h2 {
+    font-size: 1.8rem;
+  }
+
+  aside p,
+  aside li {
+    font-size: 1.6rem;
+  }
+
+  footer p {
+    font-size: 1.6rem;
+    padding: 1rem;
+  }
+}
+
+/
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .guess {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
 }
